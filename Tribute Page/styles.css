@@ -32,3 +32,8 @@
   font-weight: bold;
 
 }
+
+.title {
+  padding: 5px 2px 5px 2px;
+  margin: 10px 0px 10px 0px;
+}
