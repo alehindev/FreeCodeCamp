@@ -11,21 +11,99 @@
 				<div class="form-header">
 					
 					<h1 id="title">
-						
+						kakito-huita
 					</h1>
 
 					<p id="description">
-						
+						kakayto - huina
 					</p>
 				</div>
 
 				<div class="form-body">
 					<form id="survey-form">
+
+						<label id="name-label" for="name">
 						
-						<input type="text" placeholder="Type your name" id="name">
-						<input type="email" placeholder="Type your email" id="email">
+							<p> Your Name </p>
+							<input id="name" type="text" placeholder="Type your name"  required> 
+						
+						</label>
+						
+						<label id="email-label" for="email">
+						
+								<p> Your E-mail</p>
+								<input id="email" type="email" placeholder="Type your email" required>
+						
+						</label>
+						
+						
+						<label id="number-label" for="number">
+							
+							<p>Your Age</p>
+							<input id="number" type="number" placeholder="Type your Age" name="Age" min="16" max="80" required>
+						
+						</label>
+						
+						<div class="radio">
+							<p>Choose your gender</p>
+
+							<label id="gender-label-female" for="gender-female">
+								<input id="gender-female" type="radio" name="gender" value="female">
+								FEMALE
+							</label>
 						
 
+							<label id="gender-label-male" for="gender-male">
+								<input id="gender-male" type="radio" name="gender" value="male">
+								MALE
+							</label>
+						</div>
+
+
+						<label id="dropdown-label" for="dropdown">
+
+							<p>Choose fuck</p>
+							<select id="dropdown">
+								<option>fuck 1</option>
+								<option>fuck 2</option>
+								<option>fuck 3</option>
+							</select>
+
+						</label>
+						
+						<div class="checkbox">
+							<p>Choose something from that</p>
+
+							<label id="attr1-checkbox-label" for="checkbox-survey">
+								<input id="attr1-checkbox" type="checkbox" name="checkbox-survey" value ="attr1">
+								attr1
+							</label>
+
+							<label id="attr2-checkbox-label" for="checkbox-survey">
+								<input id="attr2-checkbox" type="checkbox" name="checkbox-survey" value ="attr2">
+								attr2
+							</label>
+
+							<label id="attr3-checkbox-label" for="checkbox-survey">
+								<input id="attr3-checkbox" type="checkbox" name="checkbox-survey" value ="attr3">
+								attr3
+							</label>
+
+
+						</div>
+
+
+						<label id="textarea-label" for="textarea">
+
+							<p>Short BIO</p>
+							<textarea id="textarea" placeholder="Write something intersting about yourself">
+								
+							</textarea>
+						
+						</label>
+						
+
+						<button id="submit"></button>
 					</form>
 
 				</div>
