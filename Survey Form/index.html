@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Grand Canyon Survey Form</title>
+		<title>Who are you?</title>
 		<link rel="stylesheet" type="text/css" href="./style/style-index.css">
 		<link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	</head>
 	<body>	
-		<div class="main">
+		<div class="main" data-aos="fade-in">
 			<div class="form">
-				<div class="form-header">
+				<div class="form-header" data-aos="fade-in">
 					
 					<h1 id="title">
-						kakito-huita
+						Hi!
 					</h1>
 
 					<p id="description">
-						kakayto - huina
+						let's explore each other! Just scroll down ;)
 					</p>
 				</div>
 
 				<div class="form-body">
 					<form id="survey-form">
 
-						<label id="name-label" for="name">
+						<label id="name-label" for="name" data-aos="fade-in">
 						
-							<p> Your Name </p>
+							<p data-aos="fade-in"> Your Name </p>
 							<input id="name" type="text" placeholder="Type your name"  required> 
 						
 						</label>
 						
-						<label id="email-label" for="email">
+						<label id="email-label" for="email" data-aos="fade-in">
 						
-								<p> Your E-mail</p>
+								<p data-aos="fade-in"> Your E-mail</p>
 								<input id="email" type="email" placeholder="Type your email" required>
 						
 						</label>
 						
 						
-						<label id="number-label" for="number">
+						<label id="number-label" for="number" data-aos="fade-in">
 							
-							<p>Your Age</p>
+							<p data-aos="fade-in">Your Age</p>
 							<input id="number" type="number" placeholder="Type your Age" name="Age" min="16" max="80" required>
 						
 						</label>
 						
-						<div class="radio">
-							<p>Choose your gender</p>
+						<div class="radio" data-aos="fade-in">
+							<p data-aos="fade-in">Choose your gender</p>
 
 							<label id="gender-label-female" for="gender-female">
 								<input id="gender-female" type="radio" name="gender" value="female">
@@ -53,38 +57,38 @@
 							</label>
 						
 
-							<label id="gender-label-male" for="gender-male">
+							<label id="gender-label-male" for="gender-male" data-aos="fade-in">
 								<input id="gender-male" type="radio" name="gender" value="male">
 								MALE
 							</label>
 						</div>
 
 
-						<label id="dropdown-label" for="dropdown">
+						<label id="dropdown-label" for="dropdown" data-aos="fade-in">
 
-							<p>Choose fuck</p>
+							<p data-aos="fade-in">Choose gg</p>
 							<select id="dropdown">
-								<option>fuck 1</option>
-								<option>fuck 2</option>
-								<option>fuck 3</option>
+								<option>gg 1</option>
+								<option>gg 2</option>
+								<option>gg 3</option>
 							</select>
 
 						</label>
 						
 						<div class="checkbox">
-							<p>Choose something from that</p>
+							<p data-aos="fade-in">Choose something from that</p>
 
-							<label id="attr1-checkbox-label" for="checkbox-survey">
+							<label id="attr1-checkbox-label" for="checkbox-survey" data-aos="fade-in">
 								<input id="attr1-checkbox" type="checkbox" name="checkbox-survey" value ="attr1">
 								attr1
 							</label>
 
-							<label id="attr2-checkbox-label" for="checkbox-survey">
+							<label id="attr2-checkbox-label" for="checkbox-survey" data-aos="fade-in">
 								<input id="attr2-checkbox" type="checkbox" name="checkbox-survey" value ="attr2">
 								attr2
 							</label>
 
-							<label id="attr3-checkbox-label" for="checkbox-survey">
+							<label id="attr3-checkbox-label" for="checkbox-survey" data-aos="fade-in">
 								<input id="attr3-checkbox" type="checkbox" name="checkbox-survey" value ="attr3">
 								attr3
 							</label>
@@ -93,9 +97,9 @@
 						</div>
 
 
-						<label id="textarea-label" for="textarea">
+						<label id="textarea-label" for="textarea" data-aos="fade-in">
 
-							<p>Short BIO</p>
+							<p data-aos="fade-in">Short BIO</p>
 							<textarea id="textarea" placeholder="Write something intersting about yourself">
 								
 							</textarea>
@@ -103,7 +107,7 @@
 						</label>
 						
 
-						<button id="submit"></button>
+						<button id="submit" data-aos="fade-in"> ХУЯК </button>
 					</form>
 
 				</div>
@@ -111,8 +115,9 @@
 			</div>
 
 		</div>
-	
 
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script type="text/javascript" src="./js/app.js"></script>
 
 
 	</body>
