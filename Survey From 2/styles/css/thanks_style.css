@@ -20,12 +20,12 @@
 }
 
 .main__title {
-  font-size: 2em;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .main__subtitle {
-  font-size: 1em;
+  font-size: 1.5rem;
 }
 
 .footer {
