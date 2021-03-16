@@ -176,3 +176,30 @@ body {
             box-shadow: 0 0 3rem  rgba(119, 119, 119, 0.705);
 		}
 }
+.products {
+    display: grid;
+}
+.product {
+
+		&__title {
+		}
+
+		&__price {
+		}
+
+		&__desription {
+		}
+
+		&__button {
+		}
+}
+.footer {
+
+		&__copyright {
+		}
+}
+.links {
+
+		&__item {
+		}
+}

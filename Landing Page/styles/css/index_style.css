@@ -287,3 +287,8 @@ body {
     height: 250px;
   }
 }
+
+.products {
+  display: -ms-grid;
+  display: grid;
+}
