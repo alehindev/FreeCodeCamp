@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -152,7 +156,6 @@ body {
 		&__title {
             font-size: 2rem;
             margin: 0.5rem 0rem;
-
 		}
 
 		&__subtitle {
@@ -177,29 +180,108 @@ body {
 		}
 }
 .products {
-    display: grid;
+    
+    margin: 2vw;
+    margin-top: 10vh;
+    
+    @media (min-width: 760px) {
+        display: grid;    
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 1vw;
+    }
+    @media (max-width: 760px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 .product {
+    @media (max-width: 760px) {
+        margin: 2rem 1rem;
+        
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-		&__title {
-		}
-
-		&__price {
-		}
-
+    padding: 0rem;
+    margin: 0rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+		
 		&__desription {
+            text-align: center;
+            word-wrap: break-word;
+            margin: 2rem 3rem;
 		}
 
 		&__button {
+            background-color:rgb(255, 255, 0);
+            color: black;
+            font-size: 1rem;
+            font-weight: 550;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 2%;
+            width: 5rem;
+            height: 3rem;
+            margin: 2rem 0rem;
+            outline: none;
+		}
+        &__button:hover {
+            background-color: rgb(3, 231, 71);
+            color: white;
+        }
+}
+
+.product-title {
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color:#eee;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+		&__title {
+            
+            font-size: 1.2rem;
 		}
 }
+
 .footer {
+    max-width: 1000px;
+    background-color: #eee;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    @media (max-width: 760px) {
+        justify-content: center;   
+    }
+    padding: 1rem;
+}
+.footer-content {
 
 		&__copyright {
-		}
+		    margin: 0px;
+            padding: 0px;
+            color: rgb(110, 110, 110);
+            font-size: 0.7rem;
+        }
 }
 .links {
-
+    display: flex;
+    justify-content: space-around;
 		&__item {
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+            color: black;
+            font-size: 1rem;
 		}
 }
+
