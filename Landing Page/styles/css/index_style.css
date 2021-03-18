@@ -341,7 +341,13 @@ body {
 
 @media (max-width: 760px) {
   .product {
-    margin: 2rem 1rem;
+    margin: 2rem 4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .product {
+    margin: 2rem 2rem;
   }
 }
 
